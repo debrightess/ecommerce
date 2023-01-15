@@ -11,16 +11,25 @@ import heroImg from '../assets/images/hero-img.png'
 
 import Services from '../services/Services'
 import ProductsList from '../components/UI/ProductsList'
+import Clock from '../components/UI/Clock'
+
+import counterImg from '../assets/images/counter-timer-img.png'
 
 const Home = () => {
-  const [data, setData] = useState(products)
+  const [trendingProducts, setTrendingProducts] = useState([])
+  const [bestSalesProducts, setBestSalesProducts] = useState([])
 
   useEffect(() => {
-    const filteredProducts = products.filter(
+    const filteredTrendingProducts = products.filter(
       (item) => item.category === 'chair'
     )
 
-    setData(filteredProducts)
+    const filteredBestSalesProducts = products.filter(
+      (item) => item.category === 'sofa'
+    )
+
+    setTrendingProducts(filteredTrendingProducts)
+    setBestSalesProducts(filteredBestSalesProducts)
   }, [])
 
   const year = new Date().getFullYear()
@@ -63,7 +72,44 @@ const Home = () => {
             <Col lg='12' className='text-center'>
               <h2 className='section__title'>Trending Products</h2>
             </Col>
-            <ProductsList data={data} />
+            <ProductsList data={trendingProducts} />
+          </Row>
+        </Container>
+      </section>
+
+      <section className='best__sales'>
+        <Container>
+          <Row>
+            <Col lg='12' className='text-center'>
+              <h2 className='section__title'>Best Sales</h2>
+            </Col>
+
+            <ProductsList data={bestSalesProducts} />
+          </Row>
+        </Container>
+      </section>
+
+      <section className='timer__count'>
+        <Container>
+          <Row>
+            <Col lg='6' md='6'>
+              <div className='clock__top-content'>
+                <h4 className='text-white fs-6 mb-2'>LImited Offers</h4>
+                <h3 className='tex-white fs-5 mb-3'>Quality Armchair</h3>
+              </div>
+              <Clock />
+
+              <motion.button
+                whileTap={{ scale: 1.2 }}
+                className='buy__btn store__btn'
+              >
+                <Link to='/shop'>Visit Store</Link>
+              </motion.button>
+            </Col>
+
+            <Col lg='6' md='6' className='text-end'>
+              <img src={counterImg} alt='' />
+            </Col>
           </Row>
         </Container>
       </section>
