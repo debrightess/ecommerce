@@ -95,7 +95,7 @@ const Home = () => {
             <Col lg='6' md='6'>
               <div className='clock__top-content'>
                 <h4 className='text-white fs-6 mb-2'>LImited Offers</h4>
-                <h3 className='tex-white fs-5 mb-3'>Quality Armchair</h3>
+                <h3 className='text-white fs-5 mb-3'>Quality Armchair</h3>
               </div>
               <Clock />
 
