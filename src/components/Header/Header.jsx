@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 import './header.css'
 
@@ -32,6 +32,8 @@ const Header = () => {
 
   const menuRef = useRef(null)
 
+  const navigate = useNavigate()
+
   const stidkyHeaderFunc = () => {
     window.addEventListener('scroll', () => {
       if (
@@ -52,6 +54,10 @@ const Header = () => {
   })
 
   const menuToggle = () => menuRef.current.classList.toggle('active__menu')
+
+  const navigateToCart = () => {
+    navigate('/cart')
+  }
 
   return (
     <header className='header' ref={headerRef}>
@@ -83,7 +89,7 @@ const Header = () => {
             </div>
 
             <div className='nav__icons'>
-              <span className='cart__icon'>
+              <span className='cart__icon' onClick={navigateToCart}>
                 <i className='ri-shopping-bag-line'></i>
                 <span className='badge'>{totalQuantity}</span>
               </span>
