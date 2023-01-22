@@ -75,9 +75,36 @@
   z-index: 10;
 }
 
-.nav__icons span img {
+.nav__icons .profile img {
   width: 30px;
   height: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.nav__icons .profile {
+  position: relative;
+  z-index: 9;
+}
+
+.profile__actions {
+  /* position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: -18px;
+  width: 100px;
+  padding-left: 15px;
+  padding-bottom: 0;
+  line-height: 20px;
+  cursor: pointer; */
+}
+
+.profile__actions button {
+  color: #fff;
+  background: var(--primary-color);
+  /* background-color:  */
 }
 
 .mobile__menu {

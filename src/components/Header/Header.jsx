@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
+import { toast } from 'react-toastify'
 
 import './header.css'
 
@@ -10,6 +11,10 @@ import userIcon from '../../assets/images/user-icon.png'
 
 import { Container, Row } from 'reactstrap'
 import { useSelector } from 'react-redux'
+import useAuth from '../../custom-hooks/useAuth'
+import { Link } from 'react-router-dom'
+import { signOut } from 'firebase/auth'
+import { auth } from '../../firebase.config'
 
 const nav__links = [
   {
@@ -31,8 +36,8 @@ const Header = () => {
   const totalQuantity = useSelector((state) => state.cart.totalQuantity)
 
   const menuRef = useRef(null)
-
   const navigate = useNavigate()
+  const { currentUser } = useAuth()
 
   const stidkyHeaderFunc = () => {
     window.addEventListener('scroll', () => {
@@ -47,6 +52,17 @@ const Header = () => {
     })
   }
 
+  const logout = () => {
+    signOut(auth)
+      .then(() => {
+        toast.success('Logged out')
+        navigate('/home')
+      })
+      .catch((err) => {
+        toast.error(err.message)
+      })
+  }
+
   useEffect(() => {
     stidkyHeaderFunc()
 
@@ -57,6 +73,10 @@ const Header = () => {
 
   const navigateToCart = () => {
     navigate('/cart')
+  }
+
+  const navigateToLogin = () => {
+    navigate('/login')
   }
 
   return (
@@ -94,13 +114,31 @@ const Header = () => {
                 <span className='badge'>{totalQuantity}</span>
               </span>
 
-              <span>
-                <motion.img
+              <div className='profile'>
+                {/* <motion.img
                   whileTap={{ scale: 1.2 }}
-                  src={userIcon}
-                  alt='userIcon'
-                />
-              </span>
+                  src={currentUser ? currentUser.photoURL : userIcon}
+                  alt=''
+                /> */}
+                <span className='user-email'>
+                  <p>
+                    {currentUser ? (
+                      currentUser.email
+                    ) : (
+                      <img onClick={navigateToLogin} src={userIcon} alt='' />
+                    )}
+                  </p>
+                </span>
+              </div>
+              <div className='nav__icons'>
+                {currentUser ? (
+                  <span className='cart__icon' onClick={logout}>
+                    <i class='ri-logout-box-line'></i>
+                  </span>
+                ) : (
+                  ''
+                )}
+              </div>
               <div className='mobile__menu'>
                 <span onClick={menuToggle}>
                   <i className='ri-menu-line'></i>
