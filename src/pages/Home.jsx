@@ -64,9 +64,10 @@ const Home = () => {
                 <p className='hero__subtitle'>Trending product in {year} </p>
                 <h2>Experience an all-new generation of incredible gadgets </h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maxime eos exercitationem voluptate? Dignissimos quas velit
-                  porro exercitationem perferendis repellat? Velit.
+                  We are an Australian company that has been in the electronic
+                  retail sector for over 15years! We always aim to provide a
+                  variety of products at the best possible prices, with shipping
+                  and delivery times that are second to none.
                 </p>
 
                 <motion.button whileTap={{ scale: 1.2 }} className='buy__btn'>
@@ -115,7 +116,7 @@ const Home = () => {
             <Col lg='6' md='12' className='count__down-col'>
               <div className='clock__top-content'>
                 <h4 className='text-white fs-6 mb-2'>LImited Offers</h4>
-                <h3 className='text-white fs-5 mb-3'>Quality Armchair</h3>
+                <h3 className='text-white fs-5 mb-3'>iPhone 14 Pro Max 256gb</h3>
               </div>
               <Clock />
 

@@ -7,6 +7,7 @@ import ProductDetails from '../pages/ProductDetails'
 import Checkout from '../pages/Checkout'
 import Login from '../pages/Login'
 import Signup from '../pages/Signup'
+import About from '../pages/About'
 
 import ProtectedRoute from './ProtectedRoute'
 
@@ -16,6 +17,7 @@ const Routers = () => {
       <Route path='/' element={<Navigate to='home' />} />
       <Route path='home' element={<Home />} />
       <Route path='shop' element={<Shop />} />
+      <Route path='about' element={<About />} />
       <Route path='shop/:id' element={<ProductDetails />} />
       <Route path='cart' element={<Cart />} />
       <Route

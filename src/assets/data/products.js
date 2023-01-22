@@ -31,18 +31,18 @@ import productImg25 from '../images/wireless-03.png'
 const products = [
   {
     id: '01',
-    productName: 'Stone and Beam Westview ',
+    productName: 'Sony PlayStation 5 ',
     imgUrl: productImg01,
     category: 'console',
-    price: 193,
+    price: 700,
     shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+      'Brand new Sony PlayStation 5 with free extra controller and game',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
     reviews: [
       {
         rating: 4.7,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'High quality product, at a great price.',
       },
     ],
     avgRating: 4.5,
@@ -50,12 +50,11 @@ const products = [
 
   {
     id: '02',
-    productName: 'Rivet Bigelow Modern ',
+    productName: 'Xbox series x',
     imgUrl: productImg02,
     category: 'console',
-    price: 253,
-    shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+    price: 650,
+    shortDesc: 'Brand new Xbox series x with free extra console and game',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
     reviews: [
@@ -73,7 +72,7 @@ const products = [
 
   {
     id: '03',
-    productName: 'Amazon Brand Modern Sofa',
+    productName: 'iPhone 11 Pro Max 256gb',
     imgUrl: productImg03,
     category: 'console',
     price: 173,
