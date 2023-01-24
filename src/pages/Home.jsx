@@ -7,13 +7,13 @@ import Helmet from '../components/Helmet/Helmet'
 import '../styles/home.css'
 
 import { Container, Row, Col } from 'reactstrap'
-import heroImg from '../assets/images/play-station.jpg'
+import heroImg from '../assets/images/ps4-slim.webp'
 
 import Services from '../services/Services'
 import ProductsList from '../components/UI/ProductsList'
 import Clock from '../components/UI/Clock'
 
-import counterImg from '../assets/images/counter-timer-img.png'
+import counterImg from '../assets/images/macbook-air-m1.png'
 
 const Home = () => {
   const [trendingProducts, setTrendingProducts] = useState([])
@@ -26,11 +26,11 @@ const Home = () => {
 
   useEffect(() => {
     const filteredTrendingProducts = products.filter(
-      (item) => item.category === 'chair'
+      (item) => item.category === 'computer'
     )
 
     const filteredBestSalesProducts = products.filter(
-      (item) => item.category === 'sofa'
+      (item) => item.category === 'console'
     )
 
     const filteredMobileProducts = products.filter(
@@ -116,7 +116,9 @@ const Home = () => {
             <Col lg='6' md='12' className='count__down-col'>
               <div className='clock__top-content'>
                 <h4 className='text-white fs-6 mb-2'>LImited Offers</h4>
-                <h3 className='text-white fs-5 mb-3'>iPhone 14 Pro Max 256gb</h3>
+                <h3 className='text-white fs-5 mb-3'>
+                  Apple 2020 MacBook Air Laptop 256gb SSD
+                </h3>
               </div>
               <Clock />
 

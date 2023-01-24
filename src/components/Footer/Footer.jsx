@@ -18,9 +18,10 @@ const Footer = () => {
               </div>
             </div>
             <p className='footer__text mt-4'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe,
-              odio. Expedita magnam dolorem animi hic maiores laudantium
-              eligendi reiciendis odio.
+              We are an Australian company that has been in the electronic
+              retail sector for over 15years! We always aim to provide a variety
+              of products at the best possible prices, with shipping and
+              delivery times that are second to none.
             </p>
           </Col>
 
@@ -29,19 +30,19 @@ const Footer = () => {
               <h4 className='quick__links-title'>Top Categories</h4>
               <ListGroup className='mb-3'>
                 <ListGroupItem clasName='ps-0 border-0'>
-                  <Link to='#'>Mobile Phones</Link>
+                  <Link to='#'>console</Link>
                 </ListGroupItem>
 
                 <ListGroupItem clasName='ps-0 border-0'>
-                  <Link to='#'>Modern Sofa</Link>
+                  <Link to='#'>Mobile</Link>
                 </ListGroupItem>
 
                 <ListGroupItem clasName='ps-0 border-0'>
-                  <Link to='#'>Arm Chair</Link>
+                  <Link to='#'>Laptop</Link>
                 </ListGroupItem>
 
                 <ListGroupItem clasName='ps-0 border-0'>
-                  <Link to='#'>Smart Watches</Link>
+                  <Link to='#'>Watches</Link>
                 </ListGroupItem>
               </ListGroup>
             </div>
@@ -60,7 +61,7 @@ const Footer = () => {
                 </ListGroupItem>
 
                 <ListGroupItem className='ps-0 border-0'>
-                  <Link to='#'>Privacy Policy</Link>
+                  <Link to='#'>About-Us</Link>
                 </ListGroupItem>
               </ListGroup>
             </div>
