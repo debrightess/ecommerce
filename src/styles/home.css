@@ -109,7 +109,7 @@
 
 @media only screen and (max-width: 576px) {
   .hero__content {
-    padding-top: 0;
+    padding: 5px;
     margin-bottom: 40px;
   }
 }
