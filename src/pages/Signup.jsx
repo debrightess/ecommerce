@@ -110,7 +110,7 @@ const Signup = () => {
                       onChange={(e) => setPassword(e.target.value)}
                     />
                   </FormGroup>
-                  <FormGroup className='form__group'>
+                  {/* <FormGroup className='form__group'>
                     <label htmlFor='profile'>Choose a profile picture</label>
                     <input
                       type='file'
@@ -118,7 +118,7 @@ const Signup = () => {
                       name='profile'
                       onChange={(e) => setFile(e.target.files[0])}
                     />
-                  </FormGroup>
+                  </FormGroup> */}
 
                   <button type='submit' className='buy__btn auth__btn'>
                     Create an Account
