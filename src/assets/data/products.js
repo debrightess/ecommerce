@@ -21,8 +21,8 @@ import productImg17 from '../images/samsung-galaxy-s21.jpg'
 import productImg18 from '../images/apple-ipad-pro.jpg'
 import productImg19 from '../images/oculus.jpg'
 
-import productImg20 from '../images/beat-02.jpg'
-import productImg21 from '../images/beat-01.jpg'
+import productImg20 from '../images/steam_deck.jpg'
+import productImg21 from '../images/apple-watch.jpg'
 import productImg22 from '../images/wireless-04.jpg'
 import productImg23 from '../images/beat-01.jpg'
 import productImg24 from '../images/wireless-04.jpg'
@@ -455,7 +455,7 @@ const products = [
     id: '20',
     productName: 'Steam deck',
     imgUrl: productImg20,
-    category: 'watch',
+    category: 'wireless',
     price: 750,
     shortDesc:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
@@ -478,7 +478,7 @@ const products = [
     id: '21',
     productName: 'Apple Watch',
     imgUrl: productImg21,
-    category: 'watch',
+    category: 'wireless',
     price: 399,
     shortDesc:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
