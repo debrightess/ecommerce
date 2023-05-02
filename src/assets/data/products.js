@@ -1,33 +1,31 @@
 import productImg01 from '../images/playstation-01.jpg'
 import productImg02 from '../images/series-x.jpg'
 import productImg03 from '../images/console1.jpg'
-
 import productImg04 from '../images/ps4-slim.webp'
+import productImg05 from '../images/2.jpg'
 
-import productImg007 from '../images/2.jpg'
+import productImg06 from '../images/1.jpg'
+import productImg07 from '../images/3.jpg'
+import productImg08 from '../images/hp-01.jpg'
+import productImg09 from '../images/iphone-11-pro-max.jpg'
 
-import productImg07 from '../images/1.jpg'
-import productImg08 from '../images/3.jpg'
-import productImg09 from '../images/hp-01.jpg'
-// import productImg10 from '../images/arm-chair-01.jpg'
+import productImg10 from '../images/iphone-12.jpg'
+import productImg11 from '../images/phone-02.jpg'
+import productImg12 from '../images/iphone-14.jpg'
+import productImg13 from '../images/iphone-14-pro.jpg'
+import productImg14 from '../images/iphone-14-pro-max.jpg'
+import productImg15 from '../images/samsung-galaxy-s23.jpg'
 
-import productImg13 from '../images/phone-01.jpg'
-import productImg14 from '../images/phone-02.jpg'
-import productImg15 from '../images/sony-01.jpg'
-import productImg16 from '../images/samsung-01.jpg'
-import productImg17 from '../images/phone-05.jpg'
-import productImg18 from '../images/phone-06.jpg'
+import productImg16 from '../images/samsung-galaxy-s22.jpg'
+import productImg17 from '../images/samsung-galaxy-s21.jpg'
+import productImg18 from '../images/apple-ipad-pro.jpg'
+import productImg19 from '../images/oculus.jpg'
 
-import productImg19 from '../images/watch-01.jpg'
-import productImg20 from '../images/watch-02.jpg'
-import productImg21 from '../images/watch-03.jpg'
-import productImg22 from '../images/watch-04.jpg'
-
-import productImg23 from '../images/beat-02.jpg'
-
-import productImg25 from '../images/beat-01.jpg'
-
-import productImg26 from '../images/wireless-04.jpg'
+import productImg20 from '../images/beat-02.jpg'
+import productImg21 from '../images/beat-01.jpg'
+import productImg22 from '../images/wireless-04.jpg'
+import productImg23 from '../images/beat-01.jpg'
+import productImg24 from '../images/wireless-04.jpg'
 
 const products = [
   {
@@ -35,7 +33,7 @@ const products = [
     productName: 'Sony PlayStation 5 Console ',
     imgUrl: productImg01,
     category: 'console',
-    price: 700,
+    price: 600,
     shortDesc:
       'Brand new Sony PlayStation 5 with free extra controller and game',
     description:
@@ -54,18 +52,18 @@ const products = [
     productName: 'Xbox series x',
     imgUrl: productImg02,
     category: 'console',
-    price: 650,
+    price: 450,
     shortDesc: 'Brand new Xbox series x with free extra console and game',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
+      'The Xbox Series X delivers sensationally smooth frame rates of up to 120FPS with the visual pop of HDR. Immerse yourself with sharper characters, brighter worlds, and impossible details with true-to-life 4k',
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'I love the new x-box system, the speed is lightening fast, no lagging and almost no buffer periods.',
       },
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'The graphic quality is really great, totally having fun.',
       },
     ],
     avgRating: 4.7,
@@ -76,50 +74,29 @@ const products = [
     productName: 'Xbox Series S',
     imgUrl: productImg03,
     category: 'console',
-    price: 279,
-    shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+    price: 299.99,
+    shortDesc: 'The Xbox Velocity Architecture, powered by  ',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
+      'Experience next-gen speed and perfromance with our largest digital libary yet. Enjoy more dynamic worlds, faster load times, and add Xbox Games Pass Ultimate (membership sold separately) to play new games on day one. Plus, enjoy hundreds of high-quality games like Minecraft, Forza Horizon 5, and Halo Infinite with friends on console, PC, and cloud.',
     reviews: [
       {
         rating: 4.6,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Screen quality is very good. Amazing graphics. Very strong and durable',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'The gameplay so far is great, I love the graphics.',
       },
     ],
     avgRating: 4.7,
   },
-  {
-    id: '26',
-    productName: 'Sony PS5 825GB SSD',
-    imgUrl: productImg02,
-    category: 'console',
-    price: 253,
-    shortDesc: 'Sony PS5 825GB SSD HDR PlayStation 5 Console',
-    description:
-      'One of the major new features of the PS5 is the next generation solid state storage, and its also the aspect Cerny spent most time talking about. Like the Xbox Series X, the PS5 move away from the hard drive based storage of previous generation consoles to fast SSD storage. How fast are we talking about here? Sony claims raw I/O that rewrite the rules of what a PlayStation console can do which makes it roughly 100x faster than the storage on the PS4.',
-    reviews: [
-      {
-        rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-      },
-      {
-        rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-      },
-    ],
-    avgRating: 4.7,
-  },
+
   {
     id: '04',
     productName: 'Sony PlayStation 4',
     imgUrl: productImg04,
     category: 'console',
-    price: 163,
+    price: 450,
     shortDesc: 'Sony PlayStation 4 1TB Slim - Black',
     description:
       'The PlayStation 4 system is smart enough to learn about your preferences, it is smart to detect your likes and dislikes, allowing you to discover pre-loaded content and ready to go on your console in your favourite game genres. PS4 users also can look over information for games shared by friends; you can also view friends gameplay, or obtain information about recommended content which includes games and movies',
@@ -139,7 +116,7 @@ const products = [
   {
     id: '05',
     productName: 'Apple MacBook Pro 14',
-    imgUrl: productImg07,
+    imgUrl: productImg05,
     category: 'computer',
     price: 99,
     shortDesc:
@@ -162,7 +139,7 @@ const products = [
   {
     id: '06',
     productName: 'Apple MacBook Pro 13.3',
-    imgUrl: productImg007,
+    imgUrl: productImg06,
     category: 'computer',
     price: 173,
     shortDesc:
@@ -185,7 +162,7 @@ const products = [
   {
     id: '07',
     productName: 'Apple 13.3 MacBook Pro',
-    imgUrl: productImg08,
+    imgUrl: productImg07,
     category: 'computer',
     price: 89,
     shortDesc: 'Apple 13.3" MacBook Pro M1 Chip 8GB/ 256GB (Late 2020)',
@@ -207,7 +184,7 @@ const products = [
   {
     id: '08',
     productName: 'Hp Omen 15 Gaming',
-    imgUrl: productImg09,
+    imgUrl: productImg08,
     category: 'computer',
     price: 112,
     shortDesc:
@@ -229,10 +206,10 @@ const products = [
 
   {
     id: '09',
-    productName: 'Apple iPhone 12 Pro',
-    imgUrl: productImg13,
+    productName: 'iPhone 11 Pro Max 256gb',
+    imgUrl: productImg09,
     category: 'mobile',
-    price: 799,
+    price: 450,
     shortDesc:
       'Apple IPhone 12 Pro Max - 256GB, 6GB RAM, 6.7-Inch,(12MP+12MP+12MP) - Pacific Blue',
     description:
@@ -240,43 +217,22 @@ const products = [
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Packed perfectly arrived quickly thank you very much for the gifts. Its a very cool place for gadgets',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Everything is fine, everything came whole, without any damage, a huge gratitude to the seller, as well as to the logistics staff.',
       },
     ],
     avgRating: 4.8,
   },
-  // {
-  //   id: '10',
-  //   productName: 'Sakarias Armchair',
-  //   imgUrl: productImg10,
-  //   category: 'chair',
-  //   price: 99,
-  //   shortDesc:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
-  //   description:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
-  //   reviews: [
-  //     {
-  //       rating: 4.6,
-  //       text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //     },
-  //     {
-  //       rating: 4.9,
-  //       text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //     },
-  //   ],
-  //   avgRating: 4.7,
-  // },
+
   {
-    id: '11',
-    productName: 'Apple IPhone 14 Pro Max',
-    imgUrl: productImg14,
+    id: '10',
+    productName: 'iPhone 12',
+    imgUrl: productImg10,
     category: 'mobile',
-    price: 799,
+    price: '600',
     shortDesc:
       'Apple IPhone 14 Pro Max 6.7 6GB 256GB ROM Nano SIM - Deep Purple',
     description:
@@ -284,67 +240,43 @@ const products = [
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Very quick delivery, original product.',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Outstanding price for such a quality product, and I like how the delivery is free.',
       },
     ],
     avgRating: 4.8,
   },
 
-  // {
-  //   id: '12',
-  //   productName: 'Sony Xperia 1',
-  //   imgUrl: productImg15,
-  //   category: 'mobile',
-  //   price: 599,
-  //   shortDesc: 'Sony Xperia 1 IV 512GB Factory Unlocked Smartphone',
-  //   description:
-  //     '4K HDR native 120fps video recording[1] on all rear lenses[2]. True optical zoom 85-125mm/16mm/24mm lenses w/ 20fps HDR AF/AE. Real-time Eye AF & object tracking for photo/video (all rear lenses). Brightest 6.5” 4K 120Hz HDR OLED 21:9 wide Display[3]. Build-in live streaming for videographers[4] and mobile gamers',
-  //   reviews: [
-  //     {
-  //       rating: 4.8,
-  //       text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //     },
-  //     {
-  //       rating: 4.9,
-  //       text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-  //     },
-  //   ],
-  //   avgRating: 4.8,
-  // },
-
   {
-    id: '13',
-    productName: 'SAMSUNG Galaxy S22 Ultra',
-    imgUrl: productImg16,
+    id: '11',
+    productName: 'iPhone 13 Pro Max',
+    imgUrl: productImg11,
     category: 'mobile',
-    price: 799,
-    shortDesc:
-      'SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Burgundy',
+    price: 900,
+    shortDesc: 'Apple iPad Pro 12.9 cellular 256gb 6th gen',
     description:
       '8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22 Ultra.Form_factor : Smartphone NIGHTOGRAPHY plus PORTAIT MODE: Capture the night with crystal clear, bright pics and videos, no matter the lighting with Night Mode; Portrait Mode auto-detects and adjusts to what you want front and center, making all your photos worthy of a frame',
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'I have alway been a fan of Samsung, great product.',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Very quick delivery and it was totally free.',
       },
     ],
     avgRating: 4.8,
   },
-
   {
-    id: '14',
-    productName: 'Apple IPhone 13',
-    imgUrl: productImg17,
+    id: '12',
+    productName: 'iPhone 14 ',
+    imgUrl: productImg12,
     category: 'mobile',
-    price: 899,
+    price: 950,
     shortDesc:
       'Apple IPhone 13 Pro 6.1 Inch Super Retina XDR Display With ProMotion, (6GB RAM + 256GB ROM), IOS 15, 5G, FaceTime - Graphite',
     description:
@@ -352,11 +284,55 @@ const products = [
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'I am pleased with the price and delivery.',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Its amazing how low the price is and how fast it took to get the package delivered to me.',
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: '13',
+    productName: 'iPhone 14 pro',
+    imgUrl: productImg13,
+    category: 'mobile',
+    price: 1200,
+    shortDesc:
+      'Apple IPhone 13 Pro 6.1 Inch Super Retina XDR Display With ProMotion, (6GB RAM + 256GB ROM), IOS 15, 5G, FaceTime - Graphite',
+    description:
+      '6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography;',
+    reviews: [
+      {
+        rating: 4.8,
+        text: 'I am pleased with the price and delivery.',
+      },
+      {
+        rating: 4.9,
+        text: 'Its amazing how low the price is and how fast it took to get the package delivered to me.',
+      },
+    ],
+    avgRating: 4.8,
+  },
+  {
+    id: '14',
+    productName: 'iPhone 14 pro max 256gb',
+    imgUrl: productImg14,
+    category: 'mobile',
+    price: 1400,
+    shortDesc:
+      'Apple IPhone 13 Pro 6.1 Inch Super Retina XDR Display With ProMotion, (6GB RAM + 256GB ROM), IOS 15, 5G, FaceTime - Graphite',
+    description:
+      '6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography;',
+    reviews: [
+      {
+        rating: 4.8,
+        text: 'I am pleased with the price and delivery.',
+      },
+      {
+        rating: 4.9,
+        text: 'Its amazing how low the price is and how fast it took to get the package delivered to me.',
       },
     ],
     avgRating: 4.8,
@@ -364,45 +340,44 @@ const products = [
 
   {
     id: '15',
-    productName: 'Samsung Galaxy Note10',
-    imgUrl: productImg18,
+    productName: 'Samsung galaxy s23 Ultra',
+    imgUrl: productImg15,
     category: 'mobile',
-    price: 699,
+    price: 800,
     shortDesc:
-      'Samsung Galaxy Note10+ N12+256GB Note10 Plus Android9 Single Sim 6.8 Inch + Pouch - Aura Glow',
+      'SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Burgundy',
     description:
-      'Brand / Model Samsung Galaxy Note10+ N975U/Note 10 PlusOS Android 9CPU Qualcomm Snapdragon 855 Octa Core 2.8GHzGPU Adreno 640RAM 12GBROM 256GBExtend card MAX supports 512GB Class 10 Micro SD Memory Card (TF-Card)Display Size 6.8 inch Quad HD+Screen Resolution 3040 x 1440Screen Type Dynamic AMOLED',
+      '8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22 Ultra.Form_factor : Smartphone NIGHTOGRAPHY plus PORTAIT MODE: Capture the night with crystal clear, bright pics and videos, no matter the lighting with Night Mode; Portrait Mode auto-detects and adjusts to what you want front and center, making all your photos worthy of a frame',
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'I have alway been a fan of Samsung, great product.',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Very quick delivery and it was totally free.',
       },
     ],
     avgRating: 4.8,
   },
-
   {
     id: '16',
-    productName: 'Rolex Watch',
-    imgUrl: productImg19,
-    category: 'watch',
-    price: 299,
+    productName: 'Samsung galaxy s22 Ultra',
+    imgUrl: productImg16,
+    category: 'mobile',
+    price: 800,
     shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+      'SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Burgundy',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
+      '8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22 Ultra.Form_factor : Smartphone NIGHTOGRAPHY plus PORTAIT MODE: Capture the night with crystal clear, bright pics and videos, no matter the lighting with Night Mode; Portrait Mode auto-detects and adjusts to what you want front and center, making all your photos worthy of a frame',
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'I have alway been a fan of Samsung, great product.',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Very quick delivery and it was totally free.',
       },
     ],
     avgRating: 4.8,
@@ -410,22 +385,22 @@ const products = [
 
   {
     id: '17',
-    productName: 'Timex Easy Reader Watch',
-    imgUrl: productImg20,
-    category: 'watch',
-    price: 299,
+    productName: 'Samsung galaxy s21 ultra',
+    imgUrl: productImg17,
+    category: 'mobile',
+    price: 500,
     shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+      'Samsung Galaxy Note10+ N12+256GB Note10 Plus Android9 Single Sim 6.8 Inch + Pouch - Aura Glow',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
+      'Brand / Model Samsung Galaxy Note10+ N975U/Note 10 PlusOS Android 9CPU Qualcomm Snapdragon 855 Octa Core 2.8GHzGPU Adreno 640RAM 12GBROM 256GBExtend card MAX supports 512GB Class 10 Micro SD Memory Card (TF-Card)Display Size 6.8 inch Quad HD+Screen Resolution 3040 x 1440Screen Type Dynamic AMOLED',
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'MY order just came in, it was fast and exactly according to the specifications.',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'The communication was great, the delivery fast. Absolutely recommend',
       },
     ],
     avgRating: 4.8,
@@ -433,12 +408,11 @@ const products = [
 
   {
     id: '18',
-    productName: 'Rolex Watch',
-    imgUrl: productImg21,
-    category: 'watch',
-    price: 299,
-    shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+    productName: 'Apple iPad Pro',
+    imgUrl: productImg18,
+    category: 'mobile',
+    price: 1000,
+    shortDesc: 'Apple iPad Pro 12.9 cellular 256gb 6th gen',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
     reviews: [
@@ -456,10 +430,10 @@ const products = [
 
   {
     id: '19',
-    productName: 'Apple Watch',
-    imgUrl: productImg22,
-    category: 'watch',
-    price: 399,
+    productName: 'Oculus Quest',
+    imgUrl: productImg19,
+    category: 'wireless',
+    price: 400,
     shortDesc:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
     description:
@@ -479,14 +453,14 @@ const products = [
 
   {
     id: '20',
-    productName: 'Beats By Dre Studio Buds',
-    imgUrl: productImg23,
-    category: 'wireless',
-    price: 199,
+    productName: 'Steam deck',
+    imgUrl: productImg20,
+    category: 'watch',
+    price: 750,
     shortDesc:
-      'Beats By Dre Studio Buds With Noise Cancelling Earphones - Black',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
     description:
-      'True wireless noise cancelling Beats Studio Bud are made for music. Designed with a custom acoustic platform, Beats Studio Bud are engineered to deliver powerful, balanced sound in a compact, in-ear form factor. The result — immersive sound that pulls the emotion of music from the studio to your ears to keep you inspired. These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time⁴ with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
     reviews: [
       {
         rating: 4.8,
@@ -502,8 +476,54 @@ const products = [
 
   {
     id: '21',
+    productName: 'Apple Watch',
+    imgUrl: productImg21,
+    category: 'watch',
+    price: 399,
+    shortDesc:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+    description:
+      'WHY APPLE WATCH ULTRA — Rugged and capable, built to meet the demands of endurance athletes, outdoor adventurers, and water sports enthusiasts — with a specialized band for each. Up to 36 hours of battery life, plus all the Apple Watch features that help you stay healthy, safe, and connected. EXTREMELY RUGGED, INCREDIBLY CAPABLE — 49mm corrosion-resistant titanium case. Larger Digital Crown and more accessible buttons. 100m water resistance. Customizable Action button for instant physical control over a variety of functions. FOR ENDURANCE ATHLETES — Advanced metrics in the Workout app, including Heart Rate Zones and Running Form. Precision dual-frequency GPS for accuracy, distance, route, and pace calculations. Trail Loop band is thin, light, and flexible, designed especially for runners. FOR OUTDOOR ADVENTURERS — Redesigned Compass app delivers all-new views and functionality. Mark your location with Compass Waypoints. Backtrack uses GPS to map where you have been so you can retrace your steps. Alpine Loop band is extremely rugged and secure to meet the needs of hikers and climbers. FOR WATER SPORTS ENTHUSIASTS — Made for high-impact water sports and diving. The Oceanic+ app puts a dive computer on your wrist. Ocean Band is light and flexible, with a titanium buckle and adjustable loop for a secure fit even during high-speed water sports. MOST ADVANCED HEALTH AND SAFETY FEATURES — Advanced health sensors give you deep insights into your health. Fall Detection and Crash Detection can automatically connect you with emergency services in the event of a hard fall or a severe car crash. Hold the Action button to activate a siren that can be heard up to 600 feet away.',
+    reviews: [
+      {
+        rating: 4.8,
+        text: 'No doubt my best import ever madePassionate my watch is 100% original, packaging and bracelets are not but are of excellent quality! Everything works even until the Apple Pay that was my biggest fear, not to mention that it arrived long before the deadline.',
+      },
+      {
+        rating: 4.9,
+        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+      },
+    ],
+    avgRating: 4.8,
+  },
+
+  {
+    id: '22',
+    productName: 'Beats By Dre Studio Buds',
+    imgUrl: productImg22,
+    category: 'wireless',
+    price: 199,
+    shortDesc:
+      'Beats By Dre Studio Buds With Noise Cancelling Earphones - Black',
+    description:
+      'True wireless noise cancelling Beats Studio Bud are made for music. Designed with a custom acoustic platform, Beats Studio Bud are engineered to deliver powerful, balanced sound in a compact, in-ear form factor. The result — immersive sound that pulls the emotion of music from the studio to your ears to keep you inspired. These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time⁴ with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.',
+    reviews: [
+      {
+        rating: 4.8,
+        text: 'Beats trendy and cool earphones are still very good. I have bought his earphones several times before, and this earphone is very light and comfortable. It has excellent sound insulation effect and is not easy to fall off.',
+      },
+      {
+        rating: 4.9,
+        text: 'The actual product is very beautiful, and purple is really stunning! Sound quality and sound effect: The original feeling is still good, and the sound quality is as good as ever. Comfort: The ear wing design is good, which has a good fixation effect for sports.',
+      },
+    ],
+    avgRating: 4.8,
+  },
+
+  {
+    id: '23',
     productName: 'Beats By Dre 3',
-    imgUrl: productImg25,
+    imgUrl: productImg23,
     category: 'wireless',
     price: 199,
     shortDesc:
@@ -513,19 +533,19 @@ const products = [
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Excellent product, original beats, high level sound quality, super fast shipping.',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Good headphones and connect very well with laptop and the calls of teams are heard and heard very well.',
       },
     ],
     avgRating: 4.8,
   },
   {
-    id: '22',
+    id: '24',
     productName: 'Xbox Wireless Headset',
-    imgUrl: productImg26,
+    imgUrl: productImg24,
     category: 'wireless',
     price: 199,
     shortDesc: 'Xbox Series X|S, Xbox One, and Windows 10 Devices',
@@ -534,11 +554,11 @@ const products = [
     reviews: [
       {
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'The product is great, has all the advanced features for noise cancellation. The sound is perfect really nothing to say! Very happy with my order.',
       },
       {
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Perfect. Sound amazing.',
       },
     ],
     avgRating: 4.8,
