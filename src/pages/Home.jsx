@@ -22,7 +22,7 @@ const Home = () => {
   const [mobileProducts, setMobileProducts] = useState([])
   const [wirelessProducts, setWirelessProducts] = useState([])
 
-  const [popularProducts, setPopularProducts] = useState([])
+  // const [popularProducts, setPopularProducts] = useState([])
 
   useEffect(() => {
     const filteredTrendingProducts = products.filter(
@@ -41,15 +41,15 @@ const Home = () => {
       (item) => item.category === 'wireless'
     )
 
-    const filteredPopularProducts = products.filter(
-      (item) => item.category === 'watch'
-    )
+    // const filteredPopularProducts = products.filter(
+    //   (item) => item.category === 'watch'
+    // )
 
     setTrendingProducts(filteredTrendingProducts)
     setBestSalesProducts(filteredBestSalesProducts)
     setMobileProducts(filteredMobileProducts)
     setWirelessProducts(filteredWirelessProducts)
-    setPopularProducts(filteredPopularProducts)
+    // setPopularProducts(filteredPopularProducts)
   }, [])
 
   const year = new Date().getFullYear()
@@ -149,7 +149,7 @@ const Home = () => {
         </Container>
       </section>
 
-      <section className='popular__category mb-5'>
+      {/* <section className='popular__category mb-5'>
         <Container>
           <Row>
             <Col lg='12' className='text-center'>
@@ -158,7 +158,7 @@ const Home = () => {
             <ProductsList data={popularProducts} />
           </Row>
         </Container>
-      </section>
+      </section> */}
     </Helmet>
   )
 }
