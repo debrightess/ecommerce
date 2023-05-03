@@ -156,7 +156,7 @@ const ProductDetails = () => {
                     <ul>
                       {reviews?.map((item, index) => (
                         <li key={index} className='mb-4'>
-                          <h6>John Kenny</h6>
+                          <h6>{item.name}</h6>
                           <span>{item.rating} ( rating)</span>
                           <p>{item.text}</p>
                         </li>

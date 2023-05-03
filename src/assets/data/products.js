@@ -23,7 +23,7 @@ import productImg19 from '../images/oculus.jpg'
 
 import productImg20 from '../images/steam_deck.jpg'
 import productImg21 from '../images/apple-watch.jpg'
-import productImg22 from '../images/wireless-04.jpg'
+import productImg22 from '../images/beat-02.jpg'
 import productImg23 from '../images/beat-01.jpg'
 import productImg24 from '../images/wireless-04.jpg'
 
@@ -75,17 +75,20 @@ const products = [
     imgUrl: productImg03,
     category: 'console',
     price: 299.99,
-    shortDesc: 'The Xbox Velocity Architecture, powered by  ',
+    shortDesc:
+      'Experience next-gen speed and perfromance with our largest digital libary yet. Enjoy more dynamic worlds, faster load times, and add Xbox Games Pass Ultimate (membership sold separately) to play new games on day one. Plus, enjoy hundreds of high-quality games like Minecraft, Forza Horizon 5, and Halo Infinite with friends on console, PC, and cloud. ',
     description:
-      'Experience next-gen speed and perfromance with our largest digital libary yet. Enjoy more dynamic worlds, faster load times, and add Xbox Games Pass Ultimate (membership sold separately) to play new games on day one. Plus, enjoy hundreds of high-quality games like Minecraft, Forza Horizon 5, and Halo Infinite with friends on console, PC, and cloud.',
+      'Go all digital with Xbox Series S and experience next-gen speed and performance at a great price. Bundle includes: Xbox Series S console, one Xbox Wireless Controller, a high-speed HDMI cable, power cable, and 2 AA batteries. Make the most of every gaming minute with Quick Resume, lightning-fast load times, and gameplay of up to 120 FPS—all powered by Xbox Velocity Architecture. Enjoy digital games from four generations of Xbox, with hundreds of optimized titles that look and play better than ever. Add Xbox Game Pass Ultimate (membership sold separately) to play new games day one. Enjoy hundreds of high-quality games with friends on console, PC, and cloud. Plus, now you can skip the install and jump in with cloud gaming. Hardware-accelerated ray tracing gives your games a heightened level of realism. Bring your games and movies to life with advanced 3D Spatial Sound, which produces rich, dynamic audio environments.',
     reviews: [
       {
-        rating: 4.6,
-        text: 'Screen quality is very good. Amazing graphics. Very strong and durable',
+        name: 'Mr. Campbell',
+        rating: 4.0,
+        text: 'I love my Xbox Series S. PC snobs can preach all they like from the tops of their $2000 desktop rigs and it will fall on deaf ears when you have this $250 white box and the matching controller. A PC can be used for many things, I’m aware, but if you just want to play games there is absolutely no reason NOT to buy an Xbox Series S.',
       },
       {
+        name: 'Max Isaacs',
         rating: 4.9,
-        text: 'The gameplay so far is great, I love the graphics.',
+        text: 'French version (I live in the USA) but you can change the language easily enough',
       },
     ],
     avgRating: 4.7,
@@ -99,61 +102,72 @@ const products = [
     price: 450,
     shortDesc: 'Sony PlayStation 4 1TB Slim - Black',
     description:
-      'The PlayStation 4 system is smart enough to learn about your preferences, it is smart to detect your likes and dislikes, allowing you to discover pre-loaded content and ready to go on your console in your favourite game genres. PS4 users also can look over information for games shared by friends; you can also view friends gameplay, or obtain information about recommended content which includes games and movies',
+      'Incredible games; Endless entertainment; All new lighter slimmer PS4; 1 TB hard drive; Blu-ray technology, delivers exceptional video quality; Redefine your gaming expectations and immerse yourself in moments so intense your intuition takes over.',
     reviews: [
       {
-        rating: 4.6,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Angel marcel',
+        rating: 5.0,
+        text: 'This was bought to replace my old ps4 when it was stolen this is one awesome upgrade.',
       },
       {
-        rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Becky Archie',
+        rating: 5.0,
+        text: 'I love my new gaming system!!',
+      },
+      {
+        name: 'Sarah Dobbs',
+        rating: 5.0,
+        text: 'Me and my mom bought this as a Christmas present for my sibling and they play it constantly now. It runs smoothly and is pretty snazzy. Highly recommend.',
       },
     ],
-    avgRating: 4.7,
+    avgRating: 5.0,
   },
 
   {
     id: '05',
-    productName: 'Apple MacBook Pro 14',
+    productName: 'Apple 2021 MacBook Pro 14-inch',
     imgUrl: productImg05,
     category: 'computer',
-    price: 99,
+    price: '1,948',
     shortDesc:
-      'Apple MacBook Pro 14 M1 Pro Chip 16GB RAM,512GB(2021 Model)Silver ',
+      'Apple 2021 MacBook Pro (14-inch, M1 Pro chip with 10‑core CPU and 16‑core GPU, 16GB RAM, 1TB SSD) ',
     description:
-      'Apple M1 Pro chip for a massive leap in CPU, GPU, and machine learning performance 8-core CPU delivers up to 3.7x faster performance to fly through pro workflows quicker than ever³ 14-core GPU with up to 13x faster performance for graphics-intensive apps and games 16-core Neural Engine for up to 11x faster machine learning performance³ Longer battery life, up to 17 hours¹ 16GB of unified memory so everything you do is fast and fluid 512GB of superfast SSD storage launches apps and opens files in an instant Stunning 14-inch Liquid Retina XDR display with extreme dynamic range and contrast ratio² 1080p FaceTime HD camera with advanced image signal processor for sharper video calls Six-speaker sound system with force-canceling woofers Studio-quality three-microphone array captures your voice more clearly Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe 3 port Next-generation Wi-Fi 6 for faster connectivity Backlit Magic Keyboard with Touch ID for secure unlock and payments',
+      'Apple M1 Pro or M1 Max chip for a massive leap in CPU, GPU, and machine learning performance,Up to 10-core CPU delivers up to 3.7x faster performance to fly through pro workflows quicker than ever, Up to 32-core GPU with up to 13x faster performance for graphics-intensive apps and games, 16-core Neural Engine for up to 11x faster machine learning performance, Longer battery life, up to 17 hours, Up to 64GB of unified memory so everything you do is fast and fluid, Up to 8TB of superfast SSD storage launches apps and opens files in an instant',
     reviews: [
       {
-        rating: 4.6,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'James',
+        rating: 5.0,
+        text: 'For once apple step up its game and finally made a pro laptop that fits the need of professionals. Yes it thicker then their previous models and yes it weighs more. The new M series chips are beyond impressive. Running my broadcast software, my dj software and multitasking I barely see the CPU bars jump and I have yet to hear the fans on this thing spin up. The screen clarity makes u feel like u can reach inside the screen and touch objects. The amount of ports is just what is needed. This is 5 star material on every level.',
       },
       {
-        rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Anthony',
+        rating: 5.0,
+        text: 'Definitely loving how much faster this computer is compared to my old HP.',
       },
     ],
-    avgRating: 4.7,
+    avgRating: 5.0,
   },
 
   {
     id: '06',
-    productName: 'Apple MacBook Pro 13.3',
+    productName: 'Apple 2022 MacBook Pro 13-inch',
     imgUrl: productImg06,
     category: 'computer',
     price: 173,
     shortDesc:
-      'Apple MacBook Pro 13.3" - 512GB - 8cores - Space Grey - M2 - 2022',
+      'Apple MacBook Pro M2 Chip (13-inch, 16GB RAM, 256GB SSD Storage) - Space Gray (2022 Model) - Z16R0005S2',
     description:
-      'This lightweight mobile workstation features an Apple M2 8-Core processor that is designed to deliver up to 18 percent greater, or 1.4x faster, performance compared to the previous M1 CPU while maintaining high battery efficiency. Its 10-core integrated GPU is also 35 percent faster than the M1, which significantly cuts down rendering times when working with intensive applications. The 13.3" Retina display features a 2560 x 1600 resolution, 500 nits of brightness, wide P3 color gamut support, and more. With 8GB of memory and 512GB of SSD storage, you can quickly multitask applications and load large video clips and project file',
+      'This lightweight mobile workstation features an Apple M2 8-Core processor that is designed to deliver up to 18 percent greater, or 1.4x faster, performance compared to the previous M1 CPU while maintaining high battery efficiency. Its 10-core integrated GPU is also 35 percent faster than the M1, which significantly cuts down rendering times when working with intensive applications. The 13.3" Retina display features a 2560 x 1600 resolution, 500 nits of brightness, wide P3 color gamut support, and more. With 16GB of memory and 256GB of SSD storage, you can quickly multitask applications and load large video clips and project file',
     reviews: [
       {
+        name: 'Laura',
         rating: 4.6,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'This store had the best price for this color and model. My laptop died right before taxes were due and this was fabulous.',
       },
       {
+        name: 'Katy H',
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'I would just like to point out that shipping was VERY quick . I was expecting it 7 days after I ordered… got it in 2 ! Just keep in mind , this package requires a signature so plan on being home. I bought mine under “new” so I was very impressed to see the packaging was intact and damage free. Start up and set up was a breeze. I’ve never had a MacBook so I’m still looking around on how things work but other..',
       },
     ],
     avgRating: 4.7,
@@ -170,12 +184,19 @@ const products = [
       'The Apple M1 chip gives the 13‑inch MacBook Pro speed and power beyond belief. With up to 2.8x CPU performance. Up to 5x the graphics speed. Our most advanced Neural Engine for up to 11x faster machine learning. And up to 20 hours of battery life — the longest of any Mac ever. It’s Apple most popular pro notebook, taken to a whole new level.',
     reviews: [
       {
-        rating: 4.6,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Rebecca J. Vinson',
+        rating: 4.0,
+        text: "I do a lot of graphic design and video editing. Overall this computer does what I need it to. Obviously it doesn't have the power of a desktop but for small edits and projects on the go it's great. The battery life is a little lackluster but that's to be expected when processing high quality audio and video. I wish it had more USB ports so I didn't have to buy an adapter but it is Apple so I expected to buy add ons. Overall it's a good little laptop.",
       },
       {
+        name: 'Angel C.',
+        rating: 5.0,
+        text: 'It is super light, super fast and as always looks great!',
+      },
+      {
+        name: 'Mary Rivers',
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'I would recommend this product.. it is very fast and beautiful.. my first MacBook experiences very good',
       },
     ],
     avgRating: 4.7,
