@@ -37,11 +37,22 @@ const products = [
     shortDesc:
       'Brand new Sony PlayStation 5 with free extra controller and game',
     description:
-      'The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games. The PS5 console unleashes new gaming possibilities that you never anticipated. Experience lightning fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers, and 3D Audio, and an all-new generation of incredible PlayStation games.',
+      'Model Number CFI-1215A01X Stunning Games - Marvel at incredible graphics and experience new PS5 features. Breathtaking Immersion - Discover a deeper gaming experience with support for haptic feedback, adaptive triggers, and 3D Audio technology. Lightning Speed - Harness the power of a custom CPU, GPU, and SSD with Integrated I/O that rewrite the rules of what a PlayStation console can do.',
     reviews: [
       {
-        rating: 4.7,
-        text: 'High quality product, at a great price.',
+        name: 'Damion Smith',
+        rating: 5.0,
+        text: "My son absolutely loves the PS5! The graphics are incredible and the gameplay is smooth and immersive. The selection of games is also impressive, with something for everyone. It's been a great addition to our household entertainment and my son is always excited to play. Highly recommend for anyone looking for a high-quality gaming experience.",
+      },
+      {
+        name: 'Mike Jh',
+        rating: 5.0,
+        text: 'This thing is perfect and the graphics are insane. My only issue is my current HDMI cable has to be upgraded. The display will not show anything without an HDMI 2.1. So if you need a longer cable than what comes with the system beware you will need to replace it',
+      },
+      {
+        name: 'Laura Winn',
+        rating: 4.0,
+        text: 'This thing is perfect and the graphics are insane. My only issue is my current HDMI cable has to be upgraded. The display will not show anything without an HDMI 2.1. So if you need a longer cable than what comes with the system beware you will need to replace it.',
       },
     ],
     avgRating: 4.5,
@@ -53,17 +64,21 @@ const products = [
     imgUrl: productImg02,
     category: 'console',
     price: 450,
-    shortDesc: 'Brand new Xbox series x with free extra console and game',
-    description:
+    shortDesc:
       'The Xbox Series X delivers sensationally smooth frame rates of up to 120FPS with the visual pop of HDR. Immerse yourself with sharper characters, brighter worlds, and impossible details with true-to-life 4k',
+
+    description:
+      'XBOX SERIES X: The fastest, most powerful Xbox ever. Explore rich new worlds with 12 teraflops of raw graphic processing power, DirectX ray tracing, a custom SSD, and 4K gaming.* FASTER LOAD TIMES: Make the most of every gaming minute with Quick Resume, lightning-fast load times, and gameplay of up to 120 FPS – all powered by Xbox Velocity Architecture. LOOKS AND PLAYS BEST: Enjoy thousands of games from four generations of Xbox, with hundreds of optimized titles that look and play better than ever. IN THE BOX: Xbox Series X console, one Xbox Wireless Controller, an ultra high-speed HDMI cable, power cable, and 2 AA batteries. SURROUND SOUND: Enhance gameplay with both full-spectrum visuals and immersive audio with Dolby Vision and Dolby Atmos',
     reviews: [
       {
+        name: 'SuperginraiX',
         rating: 4.8,
-        text: 'I love the new x-box system, the speed is lightening fast, no lagging and almost no buffer periods.',
+        text: "You open the box up and there is the Series X all wrapped up like it's in a treasure chest. It was great! I actually had to take some video of it because it was above and beyond what I expected from unboxing a new console. So good job on that!",
       },
       {
+        name: 'TDot2020',
         rating: 4.8,
-        text: 'The graphic quality is really great, totally having fun.',
+        text: 'Incredible machine. Sets up in a flash. The App is key for easy set up. Feels so smooth. HDR is incredible for upscaling games. Nice to have 800gb and purchasable expandable memory now.',
       },
     ],
     avgRating: 4.7,
@@ -207,19 +222,26 @@ const products = [
     productName: 'Hp Omen 15 Gaming',
     imgUrl: productImg08,
     category: 'computer',
-    price: 112,
+    price: '1,599',
     shortDesc:
-      'Hp Omen 15 Gaming,10th Gen Intel Core I7,16GB RAM,1TB SSD, 6GB RTX Graphics,15.6" Win 10',
+      'OMEN by HP 2019 15-inch Gaming Laptop, 9th Gen Intel i7-9750H, NVIDIA GeForce RTX 2070 with Max-Q (8 GB), 16 GB RAM, 512 GB Solid-State Drive, VR Ready, Windows 10 Home (15-dc1060nr, Shadow Black)',
     description:
-      'The OMEN 15 Laptop is geared for easy upgrades and maintenance with single panel access to HDD, SSD, and RAM. Plus, take advantage of a generous port selection for your favorite accessories and external displays. Get lost in an immersive narrow bezel display with breathtaking resolution. A zoned backlit keyboard with 26-key rollover is strategically designed to accelerate your gaming reflexes. With NVIDIA® graphics, a high-performance Intel® Core™ processor[1], and an enhanced thermal solution - you’ve got the power to hone your skills anywhere.',
+      'Hyper-realistic graphics: NVIDIA(R) GeForce(R) RTX 2070 with Max-Q design for cooler and quieter efficiency (8 GB GDDR6 dedicated). Cutting-edge NVIDIA(R) Turing architecture immerses you in incredible realism and performance, plus NVIDIA(R) G-SYNC(TM) technology helps ensure sharp, stutter-free gaming. VR READY. 15.6-inch diagonal FHD IPS anti-glare micro-edge WLED-backlit display (1920 x 1080) with 144Hz refresh rate; OMEN command center: Easily turn up your performance with included software that enables control over your CPU overclocking settings and prioritizes your gaming traffic to minimize latency; Cutting-edge gaming performance: Play the latest games, including Fortnite, PUBG, and Overwatch, from anywhere—without sacrificing performance; Super-fast processor: 9th Generation Intel(R) Core(TM) i7-9750H Processor, 6-Core, 2.6 GHz base frequency, up to 4.5 GHz base with Intel(R) Turbo Boost Technology for superior gaming performance; Memory: 16 GB DDR4-2666 SDRAM (upgradable with 2 accessible memory slots); Storage: 512 GB PCIe(R) NVMe(TM) M.2 Solid State Drive. Chipset Intel HM370.',
     reviews: [
       {
-        rating: 4.6,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Collin Klopfenstein',
+        rating: 5.0,
+        text: 'Hard to find a G-sync Laptop with these specs. I read that some Omen 15 have had heat dissipation issues. I found this to be untrue. It gets a bit warm on the outside but that is to be expected for something this small and reasonably light. I overclocked it a tad and it runs Overwatch on Ultra settings with about 100+ fps (G-sync and overwatch dont play well so that doesnt function for that game, but that is true for all my computers)',
       },
       {
-        rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Zachory',
+        rating: 4.0,
+        text: 'Great gaming laptop! Only con is the screen is a little dark even when turned all the way up.',
+      },
+      {
+        name: 'Alex De Freitas',
+        rating: 4.0,
+        text: 'It gets hot but the heating never affected its performance as far as I experienced (with and without cooling). Been using it and playing games for almost 2 months now.',
       },
     ],
     avgRating: 4.7,
@@ -232,17 +254,24 @@ const products = [
     category: 'mobile',
     price: 450,
     shortDesc:
-      'Apple IPhone 12 Pro Max - 256GB, 6GB RAM, 6.7-Inch,(12MP+12MP+12MP) - Pacific Blue',
+      'Apple IPhone 11 Pro Max 6.5-Inch (4GB RAM, 256GB ROM ),iOS 13, (12MP+12MP+12MP)+12MP 4G LTE Smartphone - Space Grey',
     description:
-      'Get infinitely spectacular possibilities with the iPhone 12 Pro Max. It features the powerful A14 Bionic chip, 5G to download and stream high-quality video, a bright 6.7" Super Retina XDR display, and Ceramic Shield for better drop performance. Other features include a LiDAR scanner, a triple-camera system with cinema-grade Dolby Vision, MagSafe accessories for wireless charging, and much more',
+      'Memory: (4GB ROM, 512GB RAM); Display: 6.5-Inch Super Retina XDR display; Camera: 12MP Selfie, 12MP Tripple Rear Cameras; Single Nano Sim; iOS: 13; Face Unlock; A13 Bionic chip Processor',
     reviews: [
       {
-        rating: 4.8,
-        text: 'Packed perfectly arrived quickly thank you very much for the gifts. Its a very cool place for gadgets',
+        name: 'Trisha Williams',
+        rating: 5.0,
+        text: 'I have the iPhone 11, but wanted something bigger. This Pro Max is the perfect size! For it to be a refurbished phone, it’s in GREAT condition. One small scratch in the corner that I wouldn’t have even noticed if I wasn’t looking for scratches lol. Camera and audio quality is great, no issues setting it up and they are absolutely right, it works like new! Will post a picture later',
       },
       {
-        rating: 4.9,
+        name: 'Kiesha',
+        rating: 5.0,
         text: 'Everything is fine, everything came whole, without any damage, a huge gratitude to the seller, as well as to the logistics staff.',
+      },
+      {
+        name: 'Tannis Vanderploeg',
+        rating: 4.0,
+        text: 'Happy with it',
       },
     ],
     avgRating: 4.8,
@@ -254,16 +283,17 @@ const products = [
     imgUrl: productImg10,
     category: 'mobile',
     price: '600',
-    shortDesc:
-      'Apple IPhone 14 Pro Max 6.7 6GB 256GB ROM Nano SIM - Deep Purple',
+    shortDesc: 'Apple IPhone 12, 6.1-Inch 5G, 256GB, Black ',
     description:
-      'The best iPhone ever, version 2022, size XL - we have the iPhone 14 Pro Max. The list of novelties this year includes the notch morphing into a pill, the introduction of an Always-On display, and an all-new primary camera - and while you can get all of that on the 14 Pro, the extra screen estate and longevity coupled with the Maxs ultimate status mean it has a market niche of its own.',
+      'iPhone 12 smartphone was launched on 13th October 2020. The phone comes with a 6.1-inch touchscreen display with a resolution of 1170x2532 pixels at a pixel density of 460 pixels per inch (ppi). The iPhone 12 supports wireless charging, as well as proprietary fast charging. As far as the cameras are concerned, the iPhone 12 on the rear packs a 12-megapixel primary camera with an f/1.6 aperture and a second 12-megapixel camera with an f/2.4 aperture. The rear camera setup has autofocus. It sports a 12-megapixel camera on the front for selfies, with an f/2.2 aperture. iPhone 12 based on iOS 14.1 and packs 128GB of inbuilt storage. The iPhone 12 is a dual-SIM (GSM and GSM) smartphone that accepts Nano-SIM cards. The iPhone 12 measures 146.70 x 71.50 x 7.40mm (height x width x thickness) and weighs 164.00 grams. It was launched in Black, Blue, Green, Red, and White colours. It features an IP68 rating for dust and water protection.',
     reviews: [
       {
-        rating: 4.8,
-        text: 'Very quick delivery, original product.',
+        name: 'Joshua Ralston',
+        rating: 5.0,
+        text: 'Perfect! Exceeded my expectations.',
       },
       {
+        name: 'Enrique García Presenda',
         rating: 4.9,
         text: 'Outstanding price for such a quality product, and I like how the delivery is free.',
       },
@@ -277,17 +307,19 @@ const products = [
     imgUrl: productImg11,
     category: 'mobile',
     price: 900,
-    shortDesc: 'Apple iPad Pro 12.9 cellular 256gb 6th gen',
+    shortDesc: 'Apple iPhone 13 Pro Max, 128GB, Graphite ',
     description:
-      '8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22 Ultra.Form_factor : Smartphone NIGHTOGRAPHY plus PORTAIT MODE: Capture the night with crystal clear, bright pics and videos, no matter the lighting with Night Mode; Portrait Mode auto-detects and adjusts to what you want front and center, making all your photos worthy of a frame',
+      '6.7" Super Retina XDR display with ProMotion. 5G Superfast downloads, highquality streaming; Cinematic mode in 1080p at 30 fps. Dolby Vision HDR video recording up to 4K at 60 fps. 6X Optical zoom range; A15 Bionic chip. New 6-core CPU with 2 performance and 4 efficiency cores. New 5-core GPU. New 16-core Neural Engine; Up to 28 hours video playback. Face ID. Ceramic Shield front. Surgical-grade stainless steel; Water resistant to a depth of 6 meters for up to 30 minutes. Compatible with MagSafe accessories and wireless chargers',
     reviews: [
       {
-        rating: 4.8,
-        text: 'I have alway been a fan of Samsung, great product.',
+        name: 'Emily Swanagan',
+        rating: 5.0,
+        text: 'This phone… is ridiculous. I always tried to convince myself that android was better than apple, that I wasn’t missing out on anything. BOY, I was wrong! This 13 pro max is sleek, a little hefty in weight but I love the sturdiness that comes with that. It’s a beautiful phone, rocking iOS 16.4, it becomes crazy customizable. Face ID works like a charm, quicker than any Touch ID I’ve ever used, even previous iPhones.',
       },
       {
-        rating: 4.9,
-        text: 'Very quick delivery and it was totally free.',
+        name: 'Saint Anthony Akuta',
+        rating: 5.0,
+        text: "It's good and worth the price value. Liked the in-built technology. General purpose use at all times.",
       },
     ],
     avgRating: 4.8,
@@ -298,21 +330,17 @@ const products = [
     imgUrl: productImg12,
     category: 'mobile',
     price: 950,
-    shortDesc:
-      'Apple IPhone 13 Pro 6.1 Inch Super Retina XDR Display With ProMotion, (6GB RAM + 256GB ROM), IOS 15, 5G, FaceTime - Graphite',
+    shortDesc: 'Apple iPhone 14 Plus, 128GB, ',
     description:
-      '6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography;',
+      '6.7-inch Super Retina XDR display and advanced camera system for better photos in any light. Cinematic mode now in 4K Dolby Vision up to 30 fps. Action mode for smooth, steady, handheld videos. All-day battery life and up to 26 hours of video playback. A15 Bionic chip with 5-core GPU for lightning-fast performance. Superfast 5G cellular.',
     reviews: [
       {
-        rating: 4.8,
-        text: 'I am pleased with the price and delivery.',
-      },
-      {
-        rating: 4.9,
-        text: 'Its amazing how low the price is and how fast it took to get the package delivered to me.',
+        name: 'Lin G.',
+        rating: 5.0,
+        text: '100% satisfied with this!!',
       },
     ],
-    avgRating: 4.8,
+    avgRating: 5.0,
   },
   {
     id: '13',
@@ -320,18 +348,19 @@ const products = [
     imgUrl: productImg13,
     category: 'mobile',
     price: 1200,
-    shortDesc:
-      'Apple IPhone 13 Pro 6.1 Inch Super Retina XDR Display With ProMotion, (6GB RAM + 256GB ROM), IOS 15, 5G, FaceTime - Graphite',
+    shortDesc: 'Apple, iPhone 14 Pro, 5G, Capacity	128 GB',
     description:
-      '6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography;',
+      '6.1-inch Super Retina XDR display featuring Always-On & ProMotion. Dynamic Island, a magical new way to interact with iPhone. 48MP Main camera for up to 4x greater resolution. Cinematic mode now in 4K Dolby Vision up to 30 fps. Action mode for smooth, steady, handheld videos. A16 Bionic, the ultimate smartphone chip. Superfast 5G cellular. Manufacturer: Apple Computer',
     reviews: [
       {
-        rating: 4.8,
-        text: 'I am pleased with the price and delivery.',
+        name: 'Jay Mahadan',
+        rating: 5.0,
+        text: 'Just got this phone! And gotta say I am really enjoying the cool features and the new design.',
       },
       {
-        rating: 4.9,
-        text: 'Its amazing how low the price is and how fast it took to get the package delivered to me.',
+        name: 'Eddie Castillo',
+        rating: 4.0,
+        text: 'So far I’m very happy with my purchase.',
       },
     ],
     avgRating: 4.8,
@@ -342,16 +371,17 @@ const products = [
     imgUrl: productImg14,
     category: 'mobile',
     price: 1400,
-    shortDesc:
-      'Apple IPhone 13 Pro 6.1 Inch Super Retina XDR Display With ProMotion, (6GB RAM + 256GB ROM), IOS 15, 5G, FaceTime - Graphite',
+    shortDesc: 'Apple iPhone 14 Pro Max, 256GB, Gold',
     description:
-      '6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel Cinematic mode adds shallow depth of field and shifts focus automatically in your videos. Pro camera system with new 12MP Telephoto, Wide, and Ultra Wide cameras; LiDAR Scanner; 6x optical zoom range; macro photography;',
+      '6.7-inch Super Retina XDR display featuring Always-On & ProMotion. Dynamic Island, a magical new way to interact with iPhone.48MP Main camera for up to 4x greater resolution. Cinematic mode now in 4K Dolby Vision up to 30 fps. Action mode for smooth, steady, handheld videos & a vital safety feature - Crash Detection. A16 Bionic, the ultimate smartphone chip. Superfast 5G cellular Manufacturer: Apple Computer',
     reviews: [
       {
+        name: 'Carlos Garcia',
         rating: 4.8,
         text: 'I am pleased with the price and delivery.',
       },
       {
+        name: 'Kirt J.',
         rating: 4.9,
         text: 'Its amazing how low the price is and how fast it took to get the package delivered to me.',
       },
