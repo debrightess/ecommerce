@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useSelector } from 'react-redux'
 import { Container, Row, Col, Form, FormGroup } from 'reactstrap'
 
@@ -7,9 +7,27 @@ import CommonSection from '../components/UI/CommonSection'
 
 import '../styles/checkout.css'
 
+const Popup = (props) => {
+  return (
+    <div className='popup-box'>
+      <div className='box'>
+        <span className='close-icon' onClick={props.handleClose}>
+          x
+        </span>
+        {props.content}
+      </div>
+    </div>
+  )
+}
+
 const Checkout = () => {
   const totalQty = useSelector((state) => state.cart.totalQuantity)
   const totalAmount = useSelector((state) => state.cart.totalAmount)
+  const [isOpen, setIsOpen] = useState(false)
+
+  const togglePopup = () => {
+    setIsOpen(!isOpen)
+  }
 
   return (
     <Helmet title='Checkout'>
@@ -65,9 +83,24 @@ const Checkout = () => {
                 <h4>
                   Total Cost: <span>${totalAmount}</span>
                 </h4>
-                <button className='buy__btn auth__btn w-100 '>
-                  Place an order
-                </button>
+                <div>
+                  <input type='button' value='Checkout' onClick={togglePopup} />
+
+                  {isOpen && (
+                    <Popup
+                      content={
+                        <div>
+                          <h2>Payment Details</h2>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                          </p>
+                          <button>Click to confirm payment with seller</button>
+                        </div>
+                      }
+                      handleClose={togglePopup}
+                    />
+                  )}
+                </div>
               </div>
             </Col>
           </Row>
