@@ -161,6 +161,7 @@ const ProductDetails = () => {
                           <p>{item.text}</p>
                         </li>
                       ))}
+                      NG117359336R
                     </ul>
 
                     <div className='review__form'>

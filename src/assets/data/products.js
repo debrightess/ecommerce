@@ -396,20 +396,22 @@ const products = [
     category: 'mobile',
     price: 800,
     shortDesc:
-      'SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Burgundy',
+      'SAMSUNG Galaxy S23 Ultra Cell Phone, 512GB Storage, 200MP Camera, Night Mode, Long Battery Life, S Pen',
     description:
-      '8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22 Ultra.Form_factor : Smartphone NIGHTOGRAPHY plus PORTAIT MODE: Capture the night with crystal clear, bright pics and videos, no matter the lighting with Night Mode; Portrait Mode auto-detects and adjusts to what you want front and center, making all your photos worthy of a frame',
+      "CAPTURE THE NIGHT IN LOW LIGHT: Whether you’re headed to a concert or romantic night out, there’s no such thing as bad lighting with Night Mode; Galaxy S23 Ultra lets you capture epic content in any setting with stunning Nightography; HIGHEST PHONE CAMERA RESOLUTION: Create crystal-clear content worth sharing with Galaxy S23 Ultra’s 200MP camera — the highest camera resolution on a phone; Whether you’re posting or printing, Galaxy S23 Ultra always does the moment justice; STUNNINGLY SMOOTH VIDEO: Capture incredibly smooth video during life’s most exciting moments; With Video Stabilization, this smartphone easily records daytime outdoor adventures or those spur-of-the-moment dance parties at night; WRITE, DRAW, CREATE w/ S PEN: Whether you’re in Samsung Note, Microsoft Office or Google Suite, with the built-in S Pen, you can convert handwriting to text, share your creations live and keep everything on your Galaxy S23 Ultra device; SNAP PICS w/ S PEN: Capture epic selfies and beautiful photos with the click of your S Pen; Simply open up the camera app and click the button on the S Pen instead of the screen; Getting that great shot just got easier; FASTEST MOBILE PROCESSOR AVAILABLE: Whether you’re working hard, playing hard or doing both at the same time, smoothly switch between apps with our fastest processor ever; UNLOCK SMOOTH GAMING: Game at full throttle and smoothly switch between apps; Get more done with our fastest processor ever combined with massive internal storage; And if you’re on the move, keep going with a screen that adapts to your environment; BATTERY THAT POWERS YOUR DAY: Power through a packed day* or long night of gaming without worrying about your phone dying; The robust 5,000mAh battery has been fine-tuned with a smarter processor that helps manage energy usage without slowing you down; MORE STORAGE. MORE MEMORIES: You’re good on storage space; With an impressive amount of storage, starting at 256GB, you can enjoy being behind the camera without the stress that comes with getting close to filling up your phone; ADAPTIVE DISPLAY: Watch your content comfortably as Adaptive Vision Booster helps your screen adapt to your environment; Whether out in direct sunlight or in bed with the lights off, the contrast on Samsung Galaxy S23 Ultra's expansive screen still looks amazing",
     reviews: [
       {
-        rating: 4.8,
-        text: 'I have alway been a fan of Samsung, great product.',
+        name: 'Russel Muhlbach',
+        rating: 5.0,
+        text: 'Yes you can take pictures of the Moon! This is the best phone in the world no joke a sound quality is phenomenal & processing speed exceptional everything I do is extremely fast with no delay. If you own an apple you may think about reconsidering. This phone is very customizable it can do anything you want it to do. This phone blows Apple out of the water. In the stylist is very good does so many different functions it can even take pictures remotely with the button via Bluetooth. This really is the best phone on the market.',
       },
       {
-        rating: 4.9,
-        text: 'Very quick delivery and it was totally free.',
+        name: 'CJM',
+        rating: 5.0,
+        text: "Battery last a long while. Up to 3 days. Has alot of features that I can't wait to try out",
       },
     ],
-    avgRating: 4.8,
+    avgRating: 5.0,
   },
   {
     id: '16',
@@ -418,20 +420,22 @@ const products = [
     category: 'mobile',
     price: 800,
     shortDesc:
-      'SAMSUNG Galaxy S22 Ultra Cell Phone, Factory Unlocked Android Smartphone, 128GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor, US Version, Burgundy',
+      'SAMSUNG Galaxy S22 Ultra Cell Phone, 128GB, 8K Camera & Video, Brightest Display Screen, S Pen, Long Battery Life, Fast 4nm Processor',
     description:
-      '8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22 Ultra.Form_factor : Smartphone NIGHTOGRAPHY plus PORTAIT MODE: Capture the night with crystal clear, bright pics and videos, no matter the lighting with Night Mode; Portrait Mode auto-detects and adjusts to what you want front and center, making all your photos worthy of a frame',
+      '8K SUPER STEADY VIDEO: Shoot videos that rival how epic your life is with stunning 8K recording, the highest recording resolution available on a smartphone; Video captured is effortlessly smooth, thanks to Auto Focus Video Stabilization on Galaxy S22 Ultra.Form_factor : Smartphone; NIGHTOGRAPHY plus PORTAIT MODE: Capture the night with crystal clear, bright pics and videos, no matter the lighting with Night Mode; Portrait Mode auto-detects and adjusts to what you want front and center, making all your photos worthy of a frame; 108MP PHOTO RESOLUTION plus BRIGHT DISPLAY: Capture premium detail with 108MP resolution— the highest available on a cell phone; Your favorite content will look even more epic on our brightest display ever with Vision Booster; ADAPTIVE COLOR CONTRAST: Streaming on the go, working from your patio or binge-watching late into the night. The Galaxy S22 Ultra adaptive screen automatically optimizes color and brightness, outdoors and indoors; LONG LASTING BATTERY plus FAST CHARGING: Power every scroll, click, tap and stream all day long and then some with an intelligent, long-lasting battery; Dive back into action at a moment’s notice with 45W Super-Fast Charging; EMBEDDED S PEN: New phone, new S Pen; Now you can unleash your creativity on Galaxy S22 Ultra with an embedded S Pen; Edit photos and videos with pinpoint accuracy, and do it all with that pen-to-paper feel; PREMIUM DESIGN & CRAFTMANSHIP: With a classy, eye-catching glass-metal-glass design, we’re setting a standard for smart phones; With our strongest aluminum frame and the latest Gorilla Glass, this phone is lightweight and durable to help endure scratches and dings.',
     reviews: [
       {
-        rating: 4.8,
-        text: 'I have alway been a fan of Samsung, great product.',
+        name: 'Angelito Salas',
+        rating: 5.0,
+        text: 'So far its amazing, Samsung(Android) just wins me for everything-user interface, durability and design.',
       },
       {
-        rating: 4.9,
-        text: 'Very quick delivery and it was totally free.',
+        name: 'Esli Rascer Mejia Silfa',
+        rating: 5.0,
+        text: 'Muy bueno ese celular pero que peña que no tiene doble Sim mañana cumplo un año.',
       },
     ],
-    avgRating: 4.8,
+    avgRating: 5.0,
   },
 
   {
@@ -441,20 +445,22 @@ const products = [
     category: 'mobile',
     price: 500,
     shortDesc:
-      'Samsung Galaxy Note10+ N12+256GB Note10 Plus Android9 Single Sim 6.8 Inch + Pouch - Aura Glow',
+      'Samsung Galaxy S21 Ultra | 5G Smartphone | Pro-Grade Camera, 8K Video, 108MP High Res | 128GB',
     description:
-      'Brand / Model Samsung Galaxy Note10+ N975U/Note 10 PlusOS Android 9CPU Qualcomm Snapdragon 855 Octa Core 2.8GHzGPU Adreno 640RAM 12GBROM 256GBExtend card MAX supports 512GB Class 10 Micro SD Memory Card (TF-Card)Display Size 6.8 inch Quad HD+Screen Resolution 3040 x 1440Screen Type Dynamic AMOLED',
+      'Pro Grade Camera: Zoom in close, take photos and videos like a pro, and capture incredible share-ready moments with our easy-to-use, multi lens camera; Sharp 8K Video: Capture your life’s best moments in head-turning, super-smooth 8K video that gives your movies that cinema-style quality Multiple Ways to Record: Create share-ready videos and GIFs on the spot with multi-cam recording and automatic professional-style effects; 100x Zoom: Get amazing clarity with a dual lens combo of 3x and 10x optical zoom, or go even further with our revolutionary 100x Space Zoom Highest Smartphone Resolution: Crystal clear 108MP allows you to pinch, crop and zoom in on your photos to see tiny, unexpected details, while lightning-fast Laser Focus keeps your focal point clear; All Day Intelligent Battery: Intuitively manages your cellphone’s usage to conserve energy, so you can go all day without charging',
     reviews: [
       {
-        rating: 4.8,
-        text: 'MY order just came in, it was fast and exactly according to the specifications.',
+        name: 'Jeanette S.',
+        rating: 5.0,
+        text: "I was thinking of buying a camera, mostly for taking photographs of art. It is confusing - I've never bought a digital camera, and I'm completely out-of-date with all the numbers which classify the cameras. A friend of a friend recommended getting a new Android instead - the S21 Ultra 5g. I did, and tested it by taking pictures of the same paintings I did last year with my old Android.",
       },
       {
-        rating: 4.9,
+        name: 'Boris Figuera',
+        rating: 5.0,
         text: 'The communication was great, the delivery fast. Absolutely recommend',
       },
     ],
-    avgRating: 4.8,
+    avgRating: 5.0,
   },
 
   {
@@ -463,20 +469,18 @@ const products = [
     imgUrl: productImg18,
     category: 'mobile',
     price: 1000,
-    shortDesc: 'Apple iPad Pro 12.9 cellular 256gb 6th gen',
+    shortDesc:
+      'Apple iPad Pro 12.9-inch (6th Generation): with M2 chip, Liquid Retina XDR Display, 256GB, Wi-Fi 6E, 12MP front/12MP and 10MP Back Cameras, Face ID, All-Day Battery Life',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
+      'WHY IPAD PRO — iPad Pro is the ultimate iPad experience, with the astonishing performance of the M2 chip, superfast wireless connectivity, and next-generation Apple Pencil experience. Plus powerful productivity features in iPadOS. IPADOS + APPS — iPadOS makes iPad more productive, intuitive, and versatile. With iPadOS, run multiple apps at once, use Apple Pencil to write in any text field with Scribble, and edit and share photos. Stage Manager makes multitasking easy with resizable, overlapping apps and external display support. iPad Pro comes with essential apps like Safari, Messages, and Keynote, with over a million more apps available on the App Store. FAST WI-FI CONNECTIVITY — Wi-Fi 6E gives you fast wireless connections. Work from almost anywhere with quick transfers of photos, documents, and large video files. PERFORMANCE AND STORAGE — The 8-core CPU in the M2 chip delivers powerful performance, while the 10‑core GPU provides blazing-fast graphics. Add all-day battery life, and you can do everything you can imagine on iPad Pro. Up to 2 terabytes of storage means you can store everything from apps to large files like 4K video. APPLE PENCIL AND MAGIC KEYBOARD — Apple Pencil (2nd generation) transforms iPad Pro into an immersive drawing canvas and the world’s best note‑taking device. Magic Keyboard features a great typing experience and a built‑in trackpad, while doubling as a protective cover for iPad. 12.9-INCH LIQUID RETINA XDR DISPLAY — Get 1000 nits of full‑screen brightness and 1600 nits of peak brightness, a 1,000,000:1 contrast ratio, Reference Mode for a more color-accurate workflow, and advanced display technologies like ProMotion, True Tone, and P3 wide color. The Liquid Retina XDR display is perfect for viewing and editing HDR photos and video, enjoying your favorite shows, or even playing games.',
     reviews: [
       {
-        rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-      },
-      {
-        rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Cody Scoggins',
+        rating: 5.0,
+        text: 'Coming from a 2018 iPad Pro 11, I wasn’t sure it would be worth an upgrade, but decided to try it anyways after I started doing more photo editing and other more moderate usage tasks. Overall I’ve been extremely happy with my decision.',
       },
     ],
-    avgRating: 4.8,
+    avgRating: 5.0,
   },
 
   {
@@ -485,21 +489,22 @@ const products = [
     imgUrl: productImg19,
     category: 'wireless',
     price: 400,
-    shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+    shortDesc: 'Oculus Quest All-in-one VR Gaming Headset – 64GB',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
+      'All-in-one VR: Simply set up the device with your Oculus mobile app and Oculus Quest has everything you need to explore VR, right out of the box. Insight tracking: Oculus Insight tracking system instantly reflects your movements in VR without the need for any external accessories. Touch controllers: Oculus Touch controllers precisely recreate your hands, their gestures and interactions, so every game is real enough to reach out and touch. Beyond room-scale: Oculus Quest works with your environment, so you can play standing or sitting, in spaces big or small. Oculus Quest requires your Facebook account to log in, making it easy to meet up with friends in VR and discover communities around the world.',
     reviews: [
       {
-        rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Hans Luijten',
+        rating: 5.0,
+        text: 'An amazing experience. Never seen never dreamt experiences. A worthy entertainer. Cost could have been more affordable.',
       },
       {
-        rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        name: 'Ananthakrishnan',
+        rating: 5.0,
+        text: 'This is a great upgrade of Oculus Go. The rendering Quality is pretty good, with almost no Dithering. 360 degree photos look awesome especially since you can move around. The Guardian is a bit of a pain since it keeps getting reset. This is a very good buy and a better value for money compared to Rift, if you compare the ease of use, no wires, but still have the ability to move around',
       },
     ],
-    avgRating: 4.8,
+    avgRating: 5.0,
   },
 
   {
@@ -508,18 +513,19 @@ const products = [
     imgUrl: productImg20,
     category: 'wireless',
     price: 750,
-    shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+    shortDesc: 'Steam Deck 512GB Handheld Console',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!',
+      "We partnered with AMD to create Steam Deck's custom APU, optimized for handheld gaming. It is a Zen 2 + RDNA 2 powerhouse, delivering more than enough performance to run the latest AAA games in a very efficient power envelope. 16 GB LPDDR5 on-board RAM (5500 MT/s quad 32-bit channels)",
     reviews: [
       {
+        name: 'Damian Mercado',
         rating: 4.8,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'The steam decks a great product. I was one of the lucky ones and got one early. ',
       },
       {
+        name: 'Gabriel Marro',
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'Awesome product. Love it.',
       },
     ],
     avgRating: 4.8,
