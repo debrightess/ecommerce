@@ -90,11 +90,21 @@ const Checkout = () => {
                     <Popup
                       content={
                         <div>
-                          <h2>Payment Details</h2>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                          <h2 className='fs-4 text-center'>Payment Details</h2>
+                          <p className='fs-6 mt-2 text-center'>
+                            Amount: <span>${totalAmount}</span>
                           </p>
-                          <button>Click to confirm payment with seller</button>
+                          <p className='fs-6 mt-2 text-center'>Account Name:</p>
+                          <p className='fs-6 mt-2 text-center'>BSB: 0137111</p>
+                          <p className='fs-6 mt-2 text-center'>
+                            Account Number: 436860319
+                          </p>
+                          <p className='fs-6 mt-2 text-center'>
+                            Bank Name: Anz
+                          </p>
+                          <button className='buy__btn w-100 mt-3'>
+                            Click to confirm payment with seller
+                          </button>
                         </div>
                       }
                       handleClose={togglePopup}
