@@ -100,6 +100,7 @@ const products = [
         rating: 4.0,
         text: 'I love my Xbox Series S. PC snobs can preach all they like from the tops of their $2000 desktop rigs and it will fall on deaf ears when you have this $250 white box and the matching controller. A PC can be used for many things, I’m aware, but if you just want to play games there is absolutely no reason NOT to buy an Xbox Series S.',
       },
+
       {
         name: 'Max Isaacs',
         rating: 4.9,
@@ -143,7 +144,7 @@ const products = [
     productName: 'Apple 2021 MacBook Pro 14-inch',
     imgUrl: productImg05,
     category: 'computer',
-    price: '1,948',
+    price: 1948,
     shortDesc:
       'Apple 2021 MacBook Pro (14-inch, M1 Pro chip with 10‑core CPU and 16‑core GPU, 16GB RAM, 1TB SSD) ',
     description:
@@ -168,7 +169,7 @@ const products = [
     productName: 'Apple 2022 MacBook Pro 13-inch',
     imgUrl: productImg06,
     category: 'computer',
-    price: 173,
+    price: 1549,
     shortDesc:
       'Apple MacBook Pro M2 Chip (13-inch, 16GB RAM, 256GB SSD Storage) - Space Gray (2022 Model) - Z16R0005S2',
     description:
@@ -193,10 +194,11 @@ const products = [
     productName: 'Apple 13.3 MacBook Pro',
     imgUrl: productImg07,
     category: 'computer',
-    price: 89,
-    shortDesc: 'Apple 13.3" MacBook Pro M1 Chip 8GB/ 256GB (Late 2020)',
+    price: 1499,
+    shortDesc:
+      'Apple MacBook Pro 13.3" with Retina Display, M2 Chip with 8-Core CPU and 10-Core GPU, 16GB Memory, 256GB SSD, Mid 2022',
     description:
-      'The Apple M1 chip gives the 13‑inch MacBook Pro speed and power beyond belief. With up to 2.8x CPU performance. Up to 5x the graphics speed. Our most advanced Neural Engine for up to 11x faster machine learning. And up to 20 hours of battery life — the longest of any Mac ever. It’s Apple most popular pro notebook, taken to a whole new level.',
+      'Apple MacBook Pro 13.3" with Retina Display - 67W USB-C Power Adapter - USB-C Charge Cable (2m) - Apple 1 Year Limited Warranty with 90 Day Free Technical Support, M2 chip makes the 13.3" MacBook Pro more capable than ever, Featuring a brilliant Retina display, a FaceTime HD camera, and studio-quality mics, Can rip through workflows with a more powerful 8-core CPU, Create stunning graphics with a lightning-fast 10-core GPU',
     reviews: [
       {
         name: 'Rebecca J. Vinson',
@@ -222,7 +224,7 @@ const products = [
     productName: 'Hp Omen 15 Gaming',
     imgUrl: productImg08,
     category: 'computer',
-    price: '1,599',
+    price: 1599,
     shortDesc:
       'OMEN by HP 2019 15-inch Gaming Laptop, 9th Gen Intel i7-9750H, NVIDIA GeForce RTX 2070 with Max-Q (8 GB), 16 GB RAM, 512 GB Solid-State Drive, VR Ready, Windows 10 Home (15-dc1060nr, Shadow Black)',
     description:
@@ -282,7 +284,7 @@ const products = [
     productName: 'iPhone 12',
     imgUrl: productImg10,
     category: 'mobile',
-    price: '600',
+    price: 600,
     shortDesc: 'Apple IPhone 12, 6.1-Inch 5G, 256GB, Black ',
     description:
       'iPhone 12 smartphone was launched on 13th October 2020. The phone comes with a 6.1-inch touchscreen display with a resolution of 1170x2532 pixels at a pixel density of 460 pixels per inch (ppi). The iPhone 12 supports wireless charging, as well as proprietary fast charging. As far as the cameras are concerned, the iPhone 12 on the rear packs a 12-megapixel primary camera with an f/1.6 aperture and a second 12-megapixel camera with an f/2.4 aperture. The rear camera setup has autofocus. It sports a 12-megapixel camera on the front for selfies, with an f/2.2 aperture. iPhone 12 based on iOS 14.1 and packs 128GB of inbuilt storage. The iPhone 12 is a dual-SIM (GSM and GSM) smartphone that accepts Nano-SIM cards. The iPhone 12 measures 146.70 x 71.50 x 7.40mm (height x width x thickness) and weighs 164.00 grams. It was launched in Black, Blue, Green, Red, and White colours. It features an IP68 rating for dust and water protection.',
@@ -533,22 +535,24 @@ const products = [
 
   {
     id: '21',
-    productName: 'Apple Watch',
+    productName: 'Apple Watch Ultra',
     imgUrl: productImg21,
     category: 'wireless',
     price: 399,
     shortDesc:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!',
+      'Apple Watch Ultra [GPS + Cellular 49mm] Smart watch w/Rugged Titanium Case & Starlight Alpine Loop Small Fitness Tracker, Precision GPS, Action Button, Extra-Long Battery Life, Brighter Retina Display!',
     description:
       'WHY APPLE WATCH ULTRA — Rugged and capable, built to meet the demands of endurance athletes, outdoor adventurers, and water sports enthusiasts — with a specialized band for each. Up to 36 hours of battery life, plus all the Apple Watch features that help you stay healthy, safe, and connected. EXTREMELY RUGGED, INCREDIBLY CAPABLE — 49mm corrosion-resistant titanium case. Larger Digital Crown and more accessible buttons. 100m water resistance. Customizable Action button for instant physical control over a variety of functions. FOR ENDURANCE ATHLETES — Advanced metrics in the Workout app, including Heart Rate Zones and Running Form. Precision dual-frequency GPS for accuracy, distance, route, and pace calculations. Trail Loop band is thin, light, and flexible, designed especially for runners. FOR OUTDOOR ADVENTURERS — Redesigned Compass app delivers all-new views and functionality. Mark your location with Compass Waypoints. Backtrack uses GPS to map where you have been so you can retrace your steps. Alpine Loop band is extremely rugged and secure to meet the needs of hikers and climbers. FOR WATER SPORTS ENTHUSIASTS — Made for high-impact water sports and diving. The Oceanic+ app puts a dive computer on your wrist. Ocean Band is light and flexible, with a titanium buckle and adjustable loop for a secure fit even during high-speed water sports. MOST ADVANCED HEALTH AND SAFETY FEATURES — Advanced health sensors give you deep insights into your health. Fall Detection and Crash Detection can automatically connect you with emergency services in the event of a hard fall or a severe car crash. Hold the Action button to activate a siren that can be heard up to 600 feet away.',
     reviews: [
       {
+        name: 'Paul Eardley',
         rating: 4.8,
         text: 'No doubt my best import ever madePassionate my watch is 100% original, packaging and bracelets are not but are of excellent quality! Everything works even until the Apple Pay that was my biggest fear, not to mention that it arrived long before the deadline.',
       },
       {
+        name: 'Stefanie',
         rating: 4.9,
-        text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+        text: 'I bought this for my husband for Christmas and he is absolutely in LOVE with this watch. He has had Apple Watches in the past, but he only wore them for a week and then stopped. This one though…… he only takes it off the charge it and take a shower. He works in a metal scrap yard and this watch is tough tough tough. 10/10 highly recommend!',
       },
     ],
     avgRating: 4.8,
@@ -559,17 +563,19 @@ const products = [
     productName: 'Beats By Dre Studio Buds',
     imgUrl: productImg22,
     category: 'wireless',
-    price: 199,
+    price: 149,
     shortDesc:
-      'Beats By Dre Studio Buds With Noise Cancelling Earphones - Black',
+      'Beats_by_dre Beats Studio Buds Totally Wireless Active Noise Cancelling (ANC) Earbuds Bundle with Case',
     description:
       'True wireless noise cancelling Beats Studio Bud are made for music. Designed with a custom acoustic platform, Beats Studio Bud are engineered to deliver powerful, balanced sound in a compact, in-ear form factor. The result — immersive sound that pulls the emotion of music from the studio to your ears to keep you inspired. These earphones feature two listening modes, Active Noise Cancelling (ANC) and Transparency mode, to give you total control of your sound. Each earbud has up to 8 hours of listening time⁴ with two additional charges provided by its pocket-sized charging case to give you up to 24 hours of combined playback.',
     reviews: [
       {
+        name: 'Morgan Britt',
         rating: 4.8,
         text: 'Beats trendy and cool earphones are still very good. I have bought his earphones several times before, and this earphone is very light and comfortable. It has excellent sound insulation effect and is not easy to fall off.',
       },
       {
+        name: 'Keisha Robinson',
         rating: 4.9,
         text: 'The actual product is very beautiful, and purple is really stunning! Sound quality and sound effect: The original feeling is still good, and the sound quality is as good as ever. Comfort: The ear wing design is good, which has a good fixation effect for sports.',
       },
@@ -584,15 +590,17 @@ const products = [
     category: 'wireless',
     price: 199,
     shortDesc:
-      'Beats By Dre Beats Studio 3 Wireless Bluetooth Headphone - Matte Black',
+      'Beats Studio3 Wireless Noise Cancelling Over-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth, 22 Hours of Listening Time, Built-in Microphone - Defiant Black-Red (Latest Model)',
     description:
       'Premium sound with fine-tuned acoustics and Pure ANC Beats Studio3 Wireless headphones deliver a premium listening experience with Pure Adaptive Noise Canceling (Pure ANC) to actively block external noise and real-time audio calibration to preserve clarity, range, and emotion. They continuously pinpoint external sounds to block while automatically responding to individual fit in real time, optimizing sound output to preserve a premium listening experience the way artists intended.',
     reviews: [
       {
+        name: 'Diana',
         rating: 4.8,
-        text: 'Excellent product, original beats, high level sound quality, super fast shipping.',
+        text: 'I bought these to use for school since I spend a lot of time in the library. They work great and block out a good amount of noise. As someone who gets nauseous easily, I was worried about the noise canceling. It isn’t too strong so thankfully they don’t make me nauseous and you can always turn it off. I like that I don’t have to turn up the volume too loud to block out noise. Now I can have the volume below the half way mark and not damage my hearing. ',
       },
       {
+        name: 'Martines',
         rating: 4.9,
         text: 'Good headphones and connect very well with laptop and the calls of teams are heard and heard very well.',
       },
@@ -605,20 +613,23 @@ const products = [
     imgUrl: productImg24,
     category: 'wireless',
     price: 199,
-    shortDesc: 'Xbox Series X|S, Xbox One, and Windows 10 Devices',
+    shortDesc:
+      'Xbox Wireless Headset – Xbox Series X|S, Xbox One, and Windows 10 Devices',
     description:
-      'Pair directly to your console with Xbox Wireless radio without the need for dongles, cables, or a base station. Surround yourself with spatial sound technologies including Windows Sonic, Dolby Atmos, and DTS Headphone X. Use auto-mute and voice isolation to reduce noise interruption for crystal-clear chat. Adjust your volume and game/chat levels with the rotating earcup dials.',
+      'Pair directly to your console with Xbox Wireless radio without the need for dongles, cables, or a base station. Surround yourself with spatial sound technologies including Windows Sonic, Dolby Atmos, and DTS Headphone:X. Use auto-mute and voice isolation to reduce noise interruption for crystal-clear chat. Adjust your volume and game/chat levels with the rotating earcup dials. Flexible, lightweight design with an adjustable headband. Enjoy up to 15 hours of battery life with the internal, rechargeable battery. Use Xbox Wireless, Bluetooth, or the included USB C cable to play across Xbox Series X|S, Xbox One, and Windows 10/11 devices. Compatible with Xbox Series X|S, Xbox One, and Windows 10/11 devices..',
     reviews: [
       {
-        rating: 4.8,
-        text: 'The product is great, has all the advanced features for noise cancellation. The sound is perfect really nothing to say! Very happy with my order.',
+        name: 'Russell B. Stewart',
+        rating: 5.0,
+        text: 'Has internal mixing options for chat and game audio that can be dialed in on the fly - worked right out of the box by just turning it on - no link issues a room away great sound and clarity. the mic can be muted with the button on the tip. led lets you know staus. Great battery life - 8hr sessions with no charging.',
       },
       {
-        rating: 4.9,
-        text: 'Perfect. Sound amazing.',
+        name: 'Patrick Lorincz',
+        rating: 4.0,
+        text: 'Sound decent, but I absolutely love the mixer control via the left ear cup. You can have it paired to both the Xbox and your phone and control the volume of each through that one control.',
       },
     ],
-    avgRating: 4.8,
+    avgRating: 4.5,
   },
 ]
 
