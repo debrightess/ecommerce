@@ -103,7 +103,13 @@ const Checkout = () => {
                             Bank Name: Anz
                           </p>
                           <button className='buy__btn w-100 mt-3'>
-                            Click to confirm payment with seller
+                            <a
+                              target='_blank'
+                              rel='noopener noreferrer'
+                              href='https://wa.me/2348100000000'
+                            >
+                              Click to confirm payment with seller
+                            </a>
                           </button>
                         </div>
                       }
