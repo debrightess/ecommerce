@@ -91,7 +91,7 @@ const Header = () => {
             <div className='logo'>
               <img src={logo} alt='logo' />
               <div>
-                <h1>Monster-Gadget</h1>
+                <h1>Phone-Gadgets Digital Store</h1>
               </div>
             </div>
 
