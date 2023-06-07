@@ -106,7 +106,7 @@ const Checkout = () => {
                             <a
                               target='_blank'
                               rel='noopener noreferrer'
-                              href='https://wa.me/2348100000000'
+                              href='https://wa.me/61756414915'
                             >
                               Click to confirm payment with seller
                             </a>
