@@ -78,18 +78,18 @@ const Footer = () => {
                   <p>123 Roseline, Denmark</p>
                 </ListGroupItem>
 
-                <ListGroupItem clasName='ps-0 border-0 d-flex align-items-center gap-2'>
+                {/* <ListGroupItem clasName='ps-0 border-0 d-flex align-items-center gap-2'>
                   <span>
                     <i className='ri-phone-line'></i>
                   </span>
                   <p>+081234567890</p>
-                </ListGroupItem>
+                </ListGroupItem> */}
 
                 <ListGroupItem clasName='ps-0 border-0'>
                   <span>
                     <i className='ri-mail-line'></i>
                   </span>
-                  <p>example123@gmail.com</p>
+                  <p>info@phonedigitalstore.com</p>
                 </ListGroupItem>
               </ListGroup>
             </div>
@@ -97,7 +97,8 @@ const Footer = () => {
 
           <Col lg='12'>
             <p className='footer__copyright'>
-              Copyright @Mega Shop {year}. All rights reserved.
+              Copyright @Phone Gadgets Digital Store {year}. All rights
+              reserved.
             </p>
           </Col>
         </Row>
