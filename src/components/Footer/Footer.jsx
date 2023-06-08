@@ -75,7 +75,7 @@ const Footer = () => {
                   <span>
                     <i className='ri-map-pin-line'></i>
                   </span>
-                  <p>123 Roseline, Denmark</p>
+                  <p>3/49 Mort Street Braddon Act 2612</p>
                 </ListGroupItem>
 
                 {/* <ListGroupItem clasName='ps-0 border-0 d-flex align-items-center gap-2'>
