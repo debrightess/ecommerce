@@ -90,25 +90,29 @@ const Checkout = () => {
                     <Popup
                       content={
                         <div>
-                          <h2 className='fs-4 text-center'>Payment Details</h2>
+                          <h2 className='fs-4 text-center'>Payment</h2>
                           <p className='fs-6 mt-2 text-center'>
                             Amount: <span>${totalAmount}</span>
                           </p>
-                          <p className='fs-6 mt-2 text-center'>Account Name:</p>
-                          <p className='fs-6 mt-2 text-center'>BSB: 0137111</p>
+                          <p className='fs-6 mt-2 text-center'>
+                            Payment is made through direct deposit <br />
+                            and bank transfer to the company's account <br />
+                            this will cover GST, insurance and delivery
+                          </p>
+                          {/* <p className='fs-6 mt-2 text-center'>BSB: 0137111</p>
                           <p className='fs-6 mt-2 text-center'>
                             Account Number: 436860319
                           </p>
                           <p className='fs-6 mt-2 text-center'>
                             Bank Name: Anz
-                          </p>
+                          </p> */}
                           <button className='buy__btn w-100 mt-3'>
                             <a
                               target='_blank'
                               rel='noopener noreferrer'
-                              href='https://wa.me/61756414915'
+                              href='https://wa.me/+61756414915'
                             >
-                              Click to confirm payment with seller
+                              Click to redirect to seller
                             </a>
                           </button>
                         </div>
